@@ -1,0 +1,34 @@
+<script>
+document.write(5 + 6);
+
+var post= window.prompt("New blog post");
+document.write(post);
+
+
+</script>
+
+<script>
+let text = "";
+let i = 0;
+while (i < 10) {
+  text += "<br>The number is " + i;
+  i++;
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+<input type="text" id="myText" value="Some text...">
+
+<button onclick="myFunction()">post</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myText").value;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+
+
